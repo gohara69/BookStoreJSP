@@ -1,0 +1,40 @@
+body {
+  height: 100%;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+	width: 100%;
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+#username{
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	margin-bottom: -1px;
+}
+
+#password{
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+	margin-bottom: 10px;
+}
+
+.form-signin .form-floating:focus-within{
+	z-index: 2;
+}
+
+.red-alert{
+	color: red;
+}
+
+.position-relative{
+	position: relative;
+}
+
+.position-absolute{
+	position: absolute;
+	z-index: 2;
+}
